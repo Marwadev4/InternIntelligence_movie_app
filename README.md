@@ -81,7 +81,7 @@ Follow these steps to set up Storytime locally on your machine:
 1. **Clone the Repository:**
    - Open your terminal and run:
      ```bash
-     git clone https://github.com/Marwadnz4/InternIntelligence_movie_ap.git
+     git clone https://github.com/Marwadnz4/InternIntelligence_movie_app.git
      ```
 
 2. **Install Dependencies:**
