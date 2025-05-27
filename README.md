@@ -1,6 +1,6 @@
 ﻿# Movie app is a mobile app for shows movies
-
-![icon_logo](https://github.com/user-attachments/assets/742304fa-d5b7-4208-a15d-5ef83ebbf8b0)
+ 
+![icon_logo](https://github.com/user-attachments/assets/39a75803-2d23-4fe3-bf3a-6c4e6cb39a02)
 
 ## Movie app Description
 
@@ -62,7 +62,7 @@ Our Movie App is a dynamic platform designed to facilitate the sharing, discover
 **Responsive Design:**  Make sure the app looks and functions well on different screen sizes and devices.
 
 ## Demo
- Movie app [HERE](https://www.linkedin.com/posts/marwa-m-jasim_flutterdev-mobileappdevelopment-movieapp-activity-7318345184906264580-FYoE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFnLTEgBJaveLItKUJPDx8XLjIKvCi7a7YM).
+ Movie app [HERE](https://www.linkedin.com/posts/marwa-mohammed-jassim97_mobiledevelopment-dart-freelancedeveloper-activity-7332856225488908288-HnNc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADr0VikBV52_20aZ1CX8oHEZg-__ya8fOvI).
    
 ## Technologies Used
 
