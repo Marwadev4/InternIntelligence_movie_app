@@ -61,7 +61,7 @@ Our Movie App is a dynamic platform designed to facilitate the sharing, discover
 
 **Responsive Design:**  Make sure the app looks and functions well on different screen sizes and devices.
 
-## Demo
+## Preview
  Movie app [HERE](https://www.linkedin.com/posts/marwa-mohammed-jassim97_mobiledevelopment-dart-freelancedeveloper-activity-7332856225488908288-HnNc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADr0VikBV52_20aZ1CX8oHEZg-__ya8fOvI).
    
 ## Technologies Used
