@@ -84,7 +84,7 @@ class ApiService {
 
   Future<MovieDetailsResponse> getMovieDetails(int movieId) async {
     var response = await DioFactory.getData(
-      endPoint: "${ApiConstants.movie}/$movieId",
+      endPoint: '${ApiConstants.movie}/$movieId',
     );
     MovieDetailsResponse movieDetailsResponse =
         MovieDetailsResponse.fromJson(response.data);
@@ -93,7 +93,7 @@ class ApiService {
 
   Future<MoviesResponse> getMovieSimilar(int movieId) async {
     var response = await DioFactory.getData(
-      endPoint: "${ApiConstants.movie}/$movieId${ApiConstants.similar}",
+      endPoint: '${ApiConstants.movie}/$movieId${ApiConstants.similar}',
     );
     MoviesResponse moviesResponse = MoviesResponse.fromJson(response.data);
     return moviesResponse;
@@ -101,7 +101,7 @@ class ApiService {
 
   Future<MoviesResponse> getMovieRecommendations(int movieId) async {
     var response = await DioFactory.getData(
-      endPoint: "${ApiConstants.movie}/$movieId${ApiConstants.recommendations}",
+      endPoint: '${ApiConstants.movie}/$movieId${ApiConstants.recommendations}',
     );
     MoviesResponse moviesResponse = MoviesResponse.fromJson(response.data);
     return moviesResponse;
@@ -119,7 +119,7 @@ class ApiService {
     required int movieId,
   }) async {
     var response = await DioFactory.postDataUseToken(
-      endPoint: "${ApiConstants.movie}/$movieId${ApiConstants.rating}",
+      endPoint: '${ApiConstants.movie}/$movieId${ApiConstants.rating}',
       data: rating.toJson(),
       query: {
         'guest_session_id': guestSessionId,

@@ -1,6 +1,6 @@
 import 'package:movie_app/features/login/data/models/login_response.dart';
 
-abstract class SignupState {}
+sealed class SignupState {}
 
 class InitState extends SignupState {}
 

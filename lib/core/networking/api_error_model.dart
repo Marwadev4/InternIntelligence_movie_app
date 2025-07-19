@@ -22,7 +22,7 @@ class ApiErrorModel {
   /// Returns a String containing all the error messages
   String getAllErrorMessages() {
     if (errors == null || errors is List && (errors as List).isEmpty) {
-      return message ?? "Unknown Error occurred";
+      return message ?? 'Unknown Error occurred';
     }
 
     // TODO : explain this new update 
@@ -30,7 +30,7 @@ class ApiErrorModel {
       final errorMessage =
           (errors as Map<String, dynamic>).entries.map((entry) {
         final value = entry.value;
-        return "${value.join(',')}";
+        return '${value.join(',')}';
       }).join('\n');
 
       return errorMessage;
@@ -38,6 +38,6 @@ class ApiErrorModel {
       return (errors as List).join('\n');
     }
 
-    return message ?? "Unknown Error occurred";
+    return message ?? 'Unknown Error occurred';
   }
 }

@@ -1,4 +1,4 @@
-abstract class NavigationStates {}
+sealed class NavigationStates {}
 
 class NavigationInitialState extends NavigationStates {}
 

@@ -16,14 +16,11 @@ class LoadingMoviePostersGrid extends StatelessWidget {
       ),
       itemCount: 20,
       physics: BouncingScrollPhysics(),
-      itemBuilder: (context, index) => InkWell(
-        onTap: () {},
-        child: Container(
-          width: double.infinity,
-          decoration: BoxDecoration(
-            color: ColorsManager.primaryCardColor,
-            borderRadius: BorderRadius.circular(20.r),
-          ),
+      itemBuilder: (context, index) => Container(
+        width: double.infinity,
+        decoration: BoxDecoration(
+          color: ColorsManager.primaryCardColor,
+          borderRadius: BorderRadius.circular(20.r),
         ),
       ),
     );

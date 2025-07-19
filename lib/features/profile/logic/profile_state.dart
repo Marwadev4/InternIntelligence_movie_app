@@ -1,3 +1,3 @@
-abstract class ProfileState {}
+sealed class ProfileState {}
 
 class InitState extends ProfileState {}

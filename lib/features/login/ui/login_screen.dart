@@ -6,7 +6,7 @@ import 'package:movie_app/features/login/ui/widgets/login_bloc_listener.dart';
 
 import '../../../core/helpers/spacing.dart';
 import '../../../core/theming/styles.dart';
-import '../../../core/widgets/app_text_button.dart';
+import '../../../core/widgets/app_button.dart';
 import 'widgets/dont_have_account_text.dart';
 import 'widgets/email_and_password.dart';
 
@@ -41,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                     ),
                     verticalSpace(60),
-                    AppTextButton(
+                    AppButton(
                       buttonText: "Login",
                       isFullWeight: true,
                       onPressed: () {

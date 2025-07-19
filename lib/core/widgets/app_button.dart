@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:movie_app/core/theming/colors.dart';
 import 'package:movie_app/core/theming/styles.dart';
 
-class AppTextButton extends StatelessWidget {
+class AppButton extends StatelessWidget {
   final double? borderRadius;
   final Color? backgroundColor;
   final double? horizontalPadding;
@@ -15,7 +15,7 @@ class AppTextButton extends StatelessWidget {
   final VoidCallback onPressed;
   final bool isFullWeight;
 
-  const AppTextButton({
+  const AppButton({
     super.key,
     this.borderRadius,
     this.isFullWeight = false,

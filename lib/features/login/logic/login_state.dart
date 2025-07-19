@@ -1,6 +1,6 @@
 import 'package:movie_app/features/login/data/models/login_response.dart';
 
-abstract class LoginState {}
+sealed class LoginState {}
 
 class InitState extends LoginState {}
 

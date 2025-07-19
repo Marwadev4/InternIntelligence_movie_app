@@ -1,6 +1,6 @@
 import 'package:movie_app/core/models/movies_response.dart';
 
-abstract class CategoryState {}
+sealed class CategoryState {}
 
 class InitCategoryState extends CategoryState {}
 

@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_app/features/search/data/models/search_requset_body.dart';
@@ -16,8 +18,13 @@ class SearchCubit extends Cubit<SearchState> {
   bool adult = false;
   int page = 1;
 
+  Timer? _debounce;
+
   void emitSearchState() async {
-    emit(LoadingSearch());
+    if (_debounce?.isActive ?? false) _debounce!.cancel();
+    _debounce = Timer(const Duration(milliseconds: 500), () {
+      emit(LoadingSearch());
+    });
     final response = await _searchRepo.searchMovie(
       SearchRequestBody(
         query: searchText.text,
@@ -38,5 +45,15 @@ class SearchCubit extends Cubit<SearchState> {
   void searchTextClear() {
     searchText.clear();
     emit(SearchInitialState());
+  }
+
+  @override
+  Future<void> close() {
+    searchText.dispose();
+    primaryReleaseYear.dispose();
+    region.dispose();
+    year.dispose();
+    _debounce?.cancel();
+    return super.close();
   }
 }

@@ -1,3 +1,3 @@
-abstract class SavedState {}
+sealed class SavedState {}
 
 class InitState extends SavedState {}

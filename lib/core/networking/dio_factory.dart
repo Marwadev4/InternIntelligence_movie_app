@@ -39,7 +39,7 @@ class DioFactory {
     };
     String apiKey = ApiConf.apiKey;
     return await dio!.get(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       queryParameters: query,
       data: data,
     );
@@ -59,7 +59,7 @@ class DioFactory {
     String apiKey = ApiConf.apiKey;
 
     return await dio!.get(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       queryParameters: query,
       data: data,
     );
@@ -75,7 +75,7 @@ class DioFactory {
 
     String apiKey = ApiConf.apiKey;
     return dio!.post(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       data: data,
     );
   }
@@ -92,7 +92,7 @@ class DioFactory {
     };
     String apiKey = ApiConf.apiKey;
     return await dio!.post(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       queryParameters: query,
       data: data,
     );
@@ -110,7 +110,7 @@ class DioFactory {
     };
     String apiKey = ApiConf.apiKey;
     return dio!.patch(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       queryParameters: query,
       data: image,
     );
@@ -127,7 +127,7 @@ class DioFactory {
     };
     String apiKey = ApiConf.apiKey;
     return dio!.put(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       data: data,
     );
   }
@@ -143,7 +143,7 @@ class DioFactory {
     };
     String apiKey = ApiConf.apiKey;
     return dio!.delete(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       queryParameters: query,
     );
   }
@@ -160,7 +160,7 @@ class DioFactory {
     };
     String apiKey = ApiConf.apiKey;
     return dio!.patch(
-      "$endPoint?api_key=$apiKey",
+      '$endPoint?api_key=$apiKey',
       queryParameters: query,
       data: data,
     );

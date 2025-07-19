@@ -6,7 +6,7 @@ import 'package:movie_app/core/helpers/spacing.dart';
 import 'package:movie_app/core/routing/routes.dart';
 import 'package:movie_app/core/theming/colors.dart';
 import 'package:movie_app/core/theming/styles.dart';
-import 'package:movie_app/core/widgets/app_text_button.dart';
+import 'package:movie_app/core/widgets/app_button.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -59,7 +59,7 @@ class OnboardingScreen extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               Spacer(),
-              AppTextButton(
+              AppButton(
                 buttonText: 'Next',
                 onPressed: () {
                   context.pushNamed(Routes.navbarScreen);

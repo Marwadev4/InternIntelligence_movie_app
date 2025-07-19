@@ -15,7 +15,6 @@ class CategoryRepo {
       final response = await _apiService.getCategoryMovies(categoryId);
       return right(response);
     } catch (error) {
-      print(error);
       return left(ApiErrorHandler.handle(error));
     }
   }

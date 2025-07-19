@@ -1,7 +1,7 @@
 import 'package:movie_app/core/models/category_response.dart';
 import 'package:movie_app/core/models/movies_response.dart';
 
-abstract class HomeState {}
+sealed class HomeState {}
 
 class InitHomeState extends HomeState {}
 

@@ -1,28 +1,30 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:logger/logger.dart';
 
-/// Observe Cubit States
+var logger = Logger(printer: PrettyPrinter());
+
 class CustomBlocObserver extends BlocObserver {
   @override
   void onCreate(BlocBase bloc) {
     super.onCreate(bloc);
-    print('onCreate -- ${bloc.runtimeType}');
+    logger.d('onCreate -- ${bloc.runtimeType}');
   }
 
   @override
   void onChange(BlocBase bloc, Change change) {
     super.onChange(bloc, change);
-    print('onChange -- ${bloc.runtimeType}, $change');
+    logger.i('onChange -- ${bloc.runtimeType}, $change');
   }
 
   @override
   void onError(BlocBase bloc, Object error, StackTrace stackTrace) {
-    print('onError -- ${bloc.runtimeType}, $error');
     super.onError(bloc, error, stackTrace);
+    logger.e('onError -- ${bloc.runtimeType}, $error');
   }
 
   @override
   void onClose(BlocBase bloc) {
     super.onClose(bloc);
-    print('onClose -- ${bloc.runtimeType}');
+    logger.w('onClose -- ${bloc.runtimeType}');
   }
 }

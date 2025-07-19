@@ -2,7 +2,7 @@ import 'package:movie_app/core/models/movies_response.dart';
 import 'package:movie_app/features/movie_details/data/models/movie_details_response.dart';
 import 'package:movie_app/features/movie_details/data/models/rating_response.dart';
 
-abstract class MovieDetailsState {}
+sealed class MovieDetailsState {}
 
 class InitMovieDetailsState extends MovieDetailsState {}
 

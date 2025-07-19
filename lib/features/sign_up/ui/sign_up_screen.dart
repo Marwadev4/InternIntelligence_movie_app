@@ -6,7 +6,7 @@ import 'package:movie_app/features/sign_up/ui/widgets/sign_up_bloc_listener.dart
 import 'package:movie_app/features/sign_up/ui/widgets/sign_up_form.dart';
 
 import '../../../core/helpers/spacing.dart';
-import '../../../core/widgets/app_text_button.dart';
+import '../../../core/widgets/app_button.dart';
 import '../logic/sign_up_cubit.dart';
 import 'widgets/already_have_account_text.dart';
 
@@ -33,7 +33,7 @@ class SignupScreen extends StatelessWidget {
                   children: [
                     const SignupForm(),
                     verticalSpace(40),
-                    AppTextButton(
+                    AppButton(
                       buttonText: "Sign Up",
                       isFullWeight: true,
                       onPressed: () {
