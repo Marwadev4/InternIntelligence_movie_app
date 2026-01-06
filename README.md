@@ -60,11 +60,24 @@ Our Movie App is a dynamic platform designed to facilitate the sharing, discover
 
 **Responsive Design:**  Make sure the app looks and functions well on different screen sizes and devices.
 ## 📱 Screenshots
-![photo_2026-01-05_16-04-40](https://github.com/user-attachments/assets/89b63db4-2cbb-4159-8c80-ef842011201e)
-![photo_2026-01-05_16-04-41](https://github.com/user-attachments/assets/602eee3a-e3ff-4a99-906b-a07e90a54ce3)
-![photo_2026-01-05_16-04-46](https://github.com/user-attachments/assets/50e26b2b-69b4-4baa-848c-7d9c2aa7f2be)
-![photo_2026-01-05_16-04-47](https://github.com/user-attachments/assets/813f105e-ad8a-4235-b689-b49f7dad3700)
-![photo_2026-01-05_16-04-49](https://github.com/user-attachments/assets/8364faf9-40f3-4f16-bc10-a38114f57444)
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <div style="flex: 0 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">
+    <img src="https://github.com/user-attachments/assets/89b63db4-2cbb-4159-8c80-ef842011201e" style="width: 100%; border-radius: 8px;" alt="Screenshot 1">
+  </div>
+  <div style="flex: 0 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">
+    <img src="https://github.com/user-attachments/assets/602eee3a-e3ff-4a99-906b-a07e90a54ce3" style="width: 100%; border-radius: 8px;" alt="Screenshot 2">
+  </div>
+  <div style="flex: 0 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">
+    <img src="https://github.com/user-attachments/assets/50e26b2b-69b4-4baa-848c-7d9c2aa7f2be" style="width: 100%; border-radius: 8px;" alt="Screenshot 3">
+  </div>
+  <div style="flex: 0 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">
+    <img src="https://github.com/user-attachments/assets/813f105e-ad8a-4235-b689-b49f7dad3700" style="width: 100%; border-radius: 8px;" alt="Screenshot 4">
+  </div>
+  <div style="flex: 0 0 calc(33.33% - 20px); max-width: calc(33.33% - 20px);">
+    <img src="https://github.com/user-attachments/assets/8364faf9-40f3-4f16-bc10-a38114f57444" style="width: 100%; border-radius: 8px;" alt="Screenshot 5">
+  </div>
+</div>
 
 ## Preview
  Movie app [HERE](https://www.linkedin.com/posts/marwa-mohammed-jassim97_mobiledevelopment-dart-freelancedeveloper-activity-7332856225488908288-HnNc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADr0VikBV52_20aZ1CX8oHEZg-__ya8fOvI).
