@@ -60,41 +60,11 @@ Our Movie App is a dynamic platform designed to facilitate the sharing, discover
 
 **Responsive Design:**  Make sure the app looks and functions well on different screen sizes and devices.
 ## 📱 Screenshots
-
-<table>
-  <!-- First Row -->
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/3bb061f7-e6cf-48db-806a-68ab4c5d029b" width="200"/>
-      <br/>
-      <em>Home Screen</em>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/f65512c7-3099-422c-ad5f-c27ab52aaa82" width="200"/>
-      <br/>
-      <em>Add Order</em>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/dc0b333c-e4df-45af-ae27-a0bfca80d567" width="200"/>
-      <br/>
-      <em>Order List</em>
-    </td>
-  </tr>
-  <!-- Second Row -->
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/a8f84e37-7d30-4282-880a-2deb1cad2a6d" width="200"/>
-      <br/>
-      <em>Order Details</em>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/62d22928-1c03-4914-b44d-1fe38488d639" width="200"/>
-      <br/>
-      <em>Loading Search results</em>
-    </td>
- 
-  </tr>
-</table>
+![photo_2026-01-05_16-04-40](https://github.com/user-attachments/assets/89b63db4-2cbb-4159-8c80-ef842011201e)
+![photo_2026-01-05_16-04-41](https://github.com/user-attachments/assets/602eee3a-e3ff-4a99-906b-a07e90a54ce3)
+![photo_2026-01-05_16-04-46](https://github.com/user-attachments/assets/50e26b2b-69b4-4baa-848c-7d9c2aa7f2be)
+![photo_2026-01-05_16-04-47](https://github.com/user-attachments/assets/813f105e-ad8a-4235-b689-b49f7dad3700)
+![photo_2026-01-05_16-04-49](https://github.com/user-attachments/assets/8364faf9-40f3-4f16-bc10-a38114f57444)
 
 ## Preview
  Movie app [HERE](https://www.linkedin.com/posts/marwa-mohammed-jassim97_mobiledevelopment-dart-freelancedeveloper-activity-7332856225488908288-HnNc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADr0VikBV52_20aZ1CX8oHEZg-__ya8fOvI).
