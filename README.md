@@ -1,7 +1,5 @@
 ﻿# Movie app is a mobile app for shows movies
- 
-![icon_logo](https://github.com/user-attachments/assets/39a75803-2d23-4fe3-bf3a-6c4e6cb39a02)
-
+ <img src="https://github.com/user-attachments/assets/39a75803-2d23-4fe3-bf3a-6c4e6cb39a02" width="100"/>
 ## Movie app Description
 
 **A Comprehensive Platform for Sharing and Discovering Movies**
@@ -60,6 +58,46 @@ Our Movie App is a dynamic platform designed to facilitate the sharing, discover
      Allow users to rate movies they've watched, contributing to community ratings and influencing recommendations.
 
 **Responsive Design:**  Make sure the app looks and functions well on different screen sizes and devices.
+## 📱 Screenshots
+
+<table>
+  <!-- First Row -->
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/3bb061f7-e6cf-48db-806a-68ab4c5d029b" width="200"/>
+      <br/>
+      <em>Home Screen</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/f65512c7-3099-422c-ad5f-c27ab52aaa82" width="200"/>
+      <br/>
+      <em>Add Order</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/dc0b333c-e4df-45af-ae27-a0bfca80d567" width="200"/>
+      <br/>
+      <em>Order List</em>
+    </td>
+  </tr>
+  <!-- Second Row -->
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a8f84e37-7d30-4282-880a-2deb1cad2a6d" width="200"/>
+      <br/>
+      <em>Order Details</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/62d22928-1c03-4914-b44d-1fe38488d639" width="200"/>
+      <br/>
+      <em>Delete Order</em>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a4b468d3-d799-4666-8289-ad0cf7013daa" width="200"/>
+      <br/>
+      <em>Orders</em>
+    </td>
+  </tr>
+</table>
 
 ## Preview
  Movie app [HERE](https://www.linkedin.com/posts/marwa-mohammed-jassim97_mobiledevelopment-dart-freelancedeveloper-activity-7332856225488908288-HnNc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADr0VikBV52_20aZ1CX8oHEZg-__ya8fOvI).
