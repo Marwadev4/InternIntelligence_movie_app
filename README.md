@@ -1,5 +1,6 @@
 ﻿# Movie app is a mobile app for shows movies
- <img src="https://github.com/user-attachments/assets/39a75803-2d23-4fe3-bf3a-6c4e6cb39a02" width="100"/>
+ <img src="https://github.com/user-attachments/assets/39a75803-2d23-4fe3-bf3a-6c4e6cb39a02" width="200"/>
+ 
 ## Movie app Description
 
 **A Comprehensive Platform for Sharing and Discovering Movies**
@@ -89,13 +90,9 @@ Our Movie App is a dynamic platform designed to facilitate the sharing, discover
     <td align="center">
       <img src="https://github.com/user-attachments/assets/62d22928-1c03-4914-b44d-1fe38488d639" width="200"/>
       <br/>
-      <em>Delete Order</em>
+      <em>Loading Search results</em>
     </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/a4b468d3-d799-4666-8289-ad0cf7013daa" width="200"/>
-      <br/>
-      <em>Orders</em>
-    </td>
+ 
   </tr>
 </table>
 
